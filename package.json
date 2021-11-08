@@ -1,0 +1,52 @@
+{
+  "name": "text-translator",
+  "homepage": "http://NiketChaudhari.github.io/text-translator",
+
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@google-cloud/text-to-speech": "^3.3.1",
+    "@material-ui/icons": "^4.11.2",
+    "@mui/material": "^5.0.6",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.24.0",
+    "mehrsprachig": "^0.8.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "react-speech": "^1.0.2",
+    "react-speech-kit": "^3.0.1",
+    "speak": "^0.3.1",
+    "speak-tts": "^2.0.8",
+    "text-to-speech-js": "^1.1.10",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
